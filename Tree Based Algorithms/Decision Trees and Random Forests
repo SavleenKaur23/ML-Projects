@@ -1,1 +1,31 @@
-
+Predicting if the Airline Passenger is satisfied or dissatisfied based on several features related to onboarding or inflight services 
+USING DECISION TREES
+  Load the relevant LIBRARIES: pandas, numpy,sklearn, matplotlib, seaborn 
+  Read the DATASET
+  EXPLORE the dataset using head, describe, columns, shape, value_counts, loc, iloc
+  PREPROCESS the data
+     Transform categorical to numerical data
+        using Label Encoder
+     Split the data into train and test data
+     Split the numerical and categorical features using List comprehensions
+  Create PIPELINES  
+     Create Pipeline for numerical (Imputer/Scaler) and categorical (Imputer/Encoder) data  
+     Create Column Transformer using numerical and categorical Pipelines and features
+     Create Pipeline using Column Transformer and Model
+  FIT the model using training input and output/target
+  PREDICT the target of test data using test input
+  ACCURACY of the model using score
+  HYPERPARAMETER TUNING 
+     Create Parameter Grid with paramters to choose from
+     Use GRID SEARCH Model  with CV (number of folds and Parameter Grid)
+        FIT the model using training input and output/target
+        PREDICT the target of test data using test input
+        ACCURACY of the model using score
+  TEST the PERFORMANCE of the model on the TEST DATA(test.csv)
+    Read the DATASET
+    PREPROCESS the data
+      Transform test categorical target data to numerical data
+          using Label Encoder
+      PREDICT the target of test data using test input
+      ACCURACY of the model using score
+  STORE the ENCODER AND MODELS using JOBLIB to be used for new test datasets
