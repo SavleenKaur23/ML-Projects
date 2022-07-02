@@ -1,1 +1,14 @@
+Searching BBC News Articles similar to our search article/query using
+  Tfidf Vectorizer
+  Cosine Similarity
 
+  Load the relevant LIBRARIES
+  Read and explore the DATASET
+      Find out the working directory of the News Article categories
+      Read & load text data from multiple folders
+      Create the DataFrame using the text data read from different folders
+  Perform VECTORIZATION
+  Identify the similarity of news articles based News Heading using COSINE SIMILARITY
+  SEARCH the top N news articles similar to a given articles and explore their features
+  USER DEFINED Search Engine Method
+      To find out most similar news articles based on the specific News Articles
