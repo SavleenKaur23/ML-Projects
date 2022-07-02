@@ -1,1 +1,17 @@
+Recommending apparels to user based on Contained Description where the users possess similarity based on content of the products 
+using Recommendation Engine Algorithm
 
+We want angle/theta to be almost 0, to have similarity in description of the products
+angle = 0, then cos(0) = 1
+ 
+COSINE SIMILARITY overcomes the limitations of the Euclidean distance used in K Means used only for numerical data.
+
+  Import the relevant LIBRARIES
+  Read and explore the DATASET
+  PREPROCESS the data
+    Transform the Text Description feature column to matrix using TfidfVectorizer
+  Identify the SIMILARITY of apparels based on description CONTENT using COSINE SIMILARITY/LINEAR KERNEL
+    Sort the top N products similar to a given product based on the Cosine Similarity values
+  User Defined RECOMMENDATION Method
+    To find out most similar products based on the product ID
+  
