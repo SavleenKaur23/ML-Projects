@@ -1,1 +1,22 @@
+Recognising similar images using K Means Clustering(An Unsupervised Machine Learning Algorithm) i.e. Recognition of Handwritten Digits
 
+K Means Clustering :
+  AIM: To come up with the overall behaviour of the clusters
+  Steps:
+   S1 Randomly select K datapoints i.e K number of clusters
+   S2 Calculate the Euclidean Distance of each datapoint from centroid
+          Datapoint closer to a cluster is assigned to that cluster
+   S3 Recalculate the centroids by taking the average of datapoints
+   S4 Reassign datapoints to new clusters
+   S5 Repeat S2 and S3 till the position of records/datapoints from their previous clusters remain same
+
+  Load the relevant LIBRARIES: pandas, numpy,sklearn, matplotlib, seaborn, scipy
+  Load the DATASET (predefined from Scikit Learn)
+  EXPLORE the dataset using keys having data, target ((data: flattened arrays/tensors used for clustering) (target : label associated with flattened array))
+  INITIALIZE the K Means Clustering Model for N Clusters
+  FIT and PREDICT the model using data from digits dataset
+  Explore the Cluster centroids, inertia and optimal number of clusters
+  RESHAPE the cluster centres to PLOT the digits as Matrix/Images
+  Find and plot the ACCURACY of the model using
+      accuracy_score
+      Confusion Matrix: To plot how many digits were correctly or incorrectly classified
